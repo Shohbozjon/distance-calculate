@@ -1,0 +1,64 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.title{
+    text-align: center;
+}
+
+.form{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form__input{
+    margin: 0 30px 0 20px;
+    padding: 10px;
+}
+
+.form__btn{
+    background-color:darkgray;
+    color:ivory;
+    padding: 8px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.list__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.list__img{
+    width: 50px;
+    height: 50px;
+}
+
+.list__title{
+    margin: 0;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.result-error{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 440px;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: red;
+  }
